@@ -21,7 +21,7 @@ type InjectHTMLConfig = {
 
 function injectHTML(pluginConfig?: InjectHTMLConfig): Plugin {
 	const {
-		tagName = 'load',
+		tagName = 'html-inject',
 		sourceAttr = 'src',
 		...cfg
 	} = { ...pluginConfig };
